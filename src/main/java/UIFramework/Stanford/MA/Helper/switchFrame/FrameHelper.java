@@ -11,7 +11,7 @@ public FrameHelper(WebDriver driver) {
 	
 		this.driver = driver;
 	}
-//swith to frame based on index
+//switch to frame based on index
 public void switchFrame(int index) 
 {
 driver.switchTo().frame(index);
@@ -23,7 +23,7 @@ public void switchFrame(String name)
 driver.switchTo().frame(name);
 System.out.println("Swithed to frame "+name);
 }
-//switch to frame by webelemnt	
+//switch to frame by webElemnt	
 public void switchFrame(WebElement element) 
 {
 driver.switchTo().frame(element);
