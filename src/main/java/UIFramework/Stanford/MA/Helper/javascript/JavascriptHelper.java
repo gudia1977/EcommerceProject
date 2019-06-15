@@ -11,7 +11,7 @@ public class JavascriptHelper {
 		super();
 		this.driver = driver;
 	}
-
+//Method to execute javascript
 	public void executeScript(String script) 
 	{
 		JavascriptExecutor exe=(JavascriptExecutor)driver;
