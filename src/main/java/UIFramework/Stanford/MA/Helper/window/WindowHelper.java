@@ -11,12 +11,12 @@ public class WindowHelper {
 		super();
 		this.driver = driver;
 	}
-
+//switch to parent window
 	public void switchToParentWindow() {
 		System.out.println("switching to Parent window");
 		driver.switchTo().defaultContent();
 	}
-
+//switch to child window
 	public void switchToWindow(int index)
 
 	{
@@ -31,7 +31,7 @@ public class WindowHelper {
 			}
 		}
 	}
-
+//close all he window
 	public void closeAllChildWindow() {
 		Set<String> Windows = driver.getWindowHandles();
 		String Parent = driver.getWindowHandle();
