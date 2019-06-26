@@ -44,11 +44,12 @@ public class WindowHelper {
 		driver.switchTo().window(Parent);
 
 	}
-	
+	//navigate forward
 	public void navigateForward() 
 	{
 		driver.navigate().forward();
 	}
+	//navigate backward
 	public void navigateBackward() 
 	{
 		driver.navigate().back();
